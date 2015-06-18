@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="Spanish">Guardar</string>
+  <string name="French">Sauvegarder</string>
+  <string name="Hebrew">שמור</string>
+  <string name="Chinese">保存</string>
+  <string name="Italiano">Salva</string>
+  <string name="Turkish">Kaydet</string>
+  <string name="Portugues">Salvar</string>
+  <string name="Deutsch">Speichern</string>
+  <string name="Korean">저장</string>
+  <string name="Japanese">保存</string>
+  <string name="Russian">Сохранить</string>
+  <string name="Arabic">حفظ</string>
+  <string name="clipix_sdk">Clipix Sdk</string>
+  <string name="get_the_add">Get the free app</string>
+  <string name="info">Save this and everything else you care about. Keep it private or share with friends.</string>
+
+
+  <string name="Spanish_SaveThis">Guardar Esto</string>
+  <string name="French_SaveThis">Sauvegarder</string>
+  <string name="Hebrew_SaveThis">שמור את זה</string>
+  <string name="Chinese_SaveThis">保存它</string>
+  <string name="Italiano_SaveThis">Salvalo</string>
+  <string name="Turkish_SaveThis">Bunu Kaydet</string>
+  <string name="Portugues_SaveThis">Salvar</string>
+  <string name="Deutsch_SaveThis">Speicher Es</string>
+  <string name="Korean_SaveThis">이것을 저장</string>
+  <string name="Japanese_SaveThis">これを保存</string>
+  <string name="Russian_SaveThis">Сохранить</string>
+  <string name="Arabic_SaveThis">حفظ هذا</string>
+</resources>

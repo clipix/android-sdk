@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <dimen name="clipix_icon_size">20dp</dimen>
+  <dimen name="arrow_size">40dp</dimen>
+  <dimen name="arrow_size_half">-20dp</dimen>
+  <dimen name="button_top_margin">5dp</dimen>
+  <dimen name="save_right_margin">25dp</dimen>
+  <dimen name="save_left_margin">10dp</dimen>
+
+</resources>

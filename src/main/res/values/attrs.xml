@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <declare-styleable name="Options">
+    <attr name="color_style"/>
+    <attr name="button_text"/>
+  </declare-styleable>
+
+
+  <attr name="color_style">
+    <enum name="gray" value="0"/>
+    <enum name="orange" value="1"/>
+    <enum name="white" value="2"/>
+  </attr>
+
+  <attr name="button_text">
+    <enum name="save" value="0"/>
+    <enum name="save_this" value="1"/>
+  </attr>
+
+
+</resources>

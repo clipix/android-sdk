@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+  <RelativeLayout
+      android:layout_marginTop="@dimen/button_top_margin"
+      android:id="@+id/rl_save"
+      android:background="@drawable/gray_rounded_bg"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/iv_clipix"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_alignParentLeft="true"
+        android:layout_width="@dimen/clipix_icon_size"
+        android:layout_height="@dimen/clipix_icon_size"
+        android:src="@drawable/icon_clipix"
+        />
+
+    <TextView
+        android:id="@+id/tv_save"
+        android:text="Save"
+        android:textSize="18sp"
+        android:layout_toRightOf="@+id/iv_clipix"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/save_left_margin"
+        android:layout_marginRight="@dimen/save_right_margin"
+        android:paddingBottom="1dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"/>
+
+  </RelativeLayout>
+
+  <ImageView
+      android:id="@+id/iv_arrow"
+      android:layout_centerVertical="true"
+      android:layout_width="@dimen/arrow_size"
+      android:layout_height="@dimen/arrow_size"
+      android:src="@drawable/ic_arrow_gray"
+      android:layout_toRightOf="@+id/rl_save"
+      android:layout_marginLeft="@dimen/arrow_size_half"
+      />
+
+
+</RelativeLayout>

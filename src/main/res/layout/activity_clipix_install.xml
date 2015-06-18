@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+  <RelativeLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:background="@drawable/rounded_white_bg"
+      >
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:id="@+id/iv_logo"
+        android:src="@drawable/clipix_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        />
+
+    <ImageView
+        android:layout_below="@+id/iv_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/iv_clip_image"/>
+
+    <TextView
+        android:id="@+id/tv_message"
+        android:layout_marginLeft="45dp"
+        android:layout_marginRight="45dp"
+        android:textSize="18dp"
+        android:textColor="@color/gray"
+        android:gravity="center"
+        android:layout_below="@+id/iv_clip_image"
+        android:text="@string/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/btn_install"
+        android:layout_below="@+id/tv_message"
+        android:background="@drawable/rounded_dark_blue_bg"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/get_the_add"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:layout_marginBottom="40dp"
+        android:textSize="16sp"
+        android:textAllCaps="false"
+        />
+  </RelativeLayout>
+</FrameLayout>

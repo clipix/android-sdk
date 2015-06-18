@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <dimen name="clipix_icon_size">30dp</dimen>
+  <dimen name="arrow_size">60dp</dimen>
+  <dimen name="arrow_size_half">-30dp</dimen>
+</resources>
